@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #F5F5F5;
+}
+
+@media (max-width: 665px){
+    .content{
+        text-align: left;
+        margin-left: 20px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    li{
+        padding: 5px 20px;
+    }
+    .top{
+        color: rgb(177, 177, 177);
+        display: block;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+@media (min-width: 666px){
+    li{
+        display: inline;
+        margin-left: 10px;
+    }
+    .heading{
+        display: inline-block;
+    }
+    .content{
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    .top{
+        color: rgb(177, 177, 177);
+        display: inline-block;
+        padding-right: 150px;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+        padding: 10px;
+    }
+}
+a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+.middle{
+    background-color: #E8ECEF;
+    margin: 30px 20%;
+    text-align: center;
+    padding-top: 30px;
+}
+.bt1{
+    margin-top: 10px;
+    background-color: rgb(9, 218, 9);
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: large;
+}
+.bt2{
+    margin-top: 10px;
+    background-color: rgb(57, 57, 238);
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+.bottom{
+    margin: 30px 20%;
+    
+}
+td > h3{
+    text-align: left;
+    padding-bottom: 5px;
+}
+td > p{
+    text-align: left;
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+span{
+    color: blue;
+}
+.last{
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+.card{
+    width: 404px;
+    margin: 20px;
+    border: 1px solid rgb(223, 215, 215);
+    border-width: 2px;
+}
+.bt3{
+    color: white;
+    background-color: rgb(9, 218, 9);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    font-size: medium;
+}
+.price{
+    display: inline;
+    margin-left: 10px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.br{
+    padding: 10px;
+}
+
+
+
+
+
+
+
